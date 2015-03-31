@@ -1,11 +1,15 @@
-# VideumCodeup Bommberman
+# VideumCodeup Bomberman
 
 Visit http://bomberman.videumcodeup.se/
+
+Register your name here http://bit.ly/1CI9x2T
 
 Your character will not be able to do anything, you'll have to write the code
 that controls your character yourself.
 
 Press `Ctrl+E` to open the editor. Press `Ctrl+S` to save and close the editor.
+
+See the API below for learning what you can make your character do.
 
 # API
 
