@@ -1,3 +1,12 @@
+# VideumCodeup Bommberman
+
+Visit http://bomberman.videumcodeup.se/
+
+Your character will not be able to do anything, you'll have to write the code
+that controls your character yourself.
+
+Press `Ctrl+E` to open the editor. Press `Ctrl+S` to save and close the editor.
+
 # API
 
 This is the API for the server-side version of Bomberman. Written by [Andreas
