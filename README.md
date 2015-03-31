@@ -47,3 +47,19 @@ Request to place a bomb at the tile of where the Bomberman stands.
 ```json
 {"command": "place-bomb", "arguments": []}
 ```
+
+## Stream
+
+The stream from the server will contain transactions to the game state in the following form:
+
+    [{"id":"some-id","coll":"some-collection","type":"add","value":{"some key": "some value"}]
+
+This means that the value ```{"some key": "some value"}``` will be added to the collection `some-collection`, with the id ```some-id```.
+
+Retractions look like this:
+
+    [{"id":"some-id","coll":"some-collection","type":"retract"}]
+
+However, the first message that will be sent from the server contains your player id, like this:
+
+    {"id":"some-id"}
